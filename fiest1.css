@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+    .main{
+        .img1{
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

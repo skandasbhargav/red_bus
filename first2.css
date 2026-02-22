@@ -1,0 +1,29 @@
+.container {
+
+    .main {
+        display: flex;
+        text-align: center;
+        gap: 30px;
+        background-color: black;
+        height: 70px;
+        justify-content: space-evenly;
+        position: relative;
+        justify-content: center;
+        position: sticky;
+        top: 0%;
+
+        li {
+            position: relative;
+            justify-content: center;
+            content: counter(name);
+            text-align: center;
+            border-radius: 10px;
+            border-color: red;
+            list-style: none;
+            width: 50px;
+            height: 40px;
+            color: black;
+            background-color: white;
+        }
+    }
+}
